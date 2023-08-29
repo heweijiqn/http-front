@@ -41,9 +41,6 @@ npm run lint -- --fix
 - 黄苏梦
 负责ui界面的设计，数据库的设计及配置动态路由
 
-# 项目采用前后端分离
-后端地址
-https://github.com/heweijiqn/http-backend
 
 
 Copyright (c) 2017-present PanJiaChen
