@@ -41,6 +41,10 @@ npm run lint -- --fix
 - 黄苏梦
 负责ui界面的设计，数据库的设计及配置动态路由
 
+<!-- ALL-CONTRIBUTORS-LIST: START - Do not remove or modify this section -->
+all-contributors generate
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
 
 
 Copyright (c) 2017-present PanJiaChen
