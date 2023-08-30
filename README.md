@@ -3,7 +3,7 @@
 
 `http-backend` 是一个后端服务，旨在提供强大的HTTP请求处理和管理功能。它可以用于构建RESTful API、管理接口、权限控制等。
 
-后端地址：https://github.com/heweijiqn/http-backend/tree/master
+后端地址：https://github.com/heweijiqn/http-backend
 
 ## 1024社区 项目在线预览
 
