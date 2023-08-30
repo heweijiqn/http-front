@@ -53,4 +53,17 @@ npm run lint -- --fix
 6. 接口的增删改查功能：允许管理员和成员管理接口，包括创建、编辑、删除接口的信息。
 7. 接口调用和监控管理功能：允许成员调用接口进行测试，并监控接口的性能数据。
 
-Copyright (c) 2017-present PanJiaChen
+## 项目结构
+
+- 首先分为三个大的模块分别是common,model,service-system
+- common模块下有四个子模块:
+  - common-log:日志实现模块
+  - common-util:通用工具类模块
+  - service-util:配置类及异常
+  - spring-security：权限模块
+- model:用于定义数据模型，包括数据库中的表结构、实体类及Vo类
+- service-system：服务模块，采用三层架构
+  - 表示层：负责处理用户请求和响应
+  - 业务逻辑层：负责实现具体的业务逻辑，协调数据处理、调用数据访问层操作等。
+  - 数据访问层：数据访问对象（DAO）负责与数据库交互，实现数据读写操作。
+
