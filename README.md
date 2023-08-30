@@ -5,9 +5,7 @@
 
 后端地址：https://github.com/heweijiqn/http-backend
 
-## 1024社区 项目在线预览
 
-https://1024code.com/codecubes/kuuwbfg
 
 ## 项目界面展示
 
