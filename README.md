@@ -1,3 +1,7 @@
+## 1024社区 项目在线展示地址
+
+https://1024code.com/codecubes/kuuwbfg
+
 # 项目以vue-admin-template为基础
 
 ```bash
