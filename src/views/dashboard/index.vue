@@ -1,16 +1,14 @@
 <template>
   <div class="dashboard-container">
     <div class="dashboard-content">
-      <h1 class="dashboard-title">欢迎使用 API 管理控制台</h1>
-      <p class="dashboard-description">
-        该控制台提供了全面的工具，用于管理 API、角色和权限。
-      </p>
-
+      
       <div class="dashboard-features">
+        <h1 class="dashboard-title">欢迎使用 API 管理控制台
+      </h1>
         <div class="dashboard-feature">
           <h2 class="feature-title">Swagger 导入</h2>
           <p class="feature-description">
-            轻松导入 Swagger 文档，自动生成 API 信息。
+             轻松导入 Swagger 文档，自动生成 API 信息。
           </p>
         </div>
 
@@ -55,7 +53,12 @@
             测试 API 并监控性能数据，实现高效管理。
           </p>
         </div>
+        <p>该控制台提供了全面的工具，用于管理 API、角色和权限。</p>
       </div>
+      <p class="dashboard-description">
+         <img class="dashboard-img" src="./../../icons/welcome.png" alt="">
+        
+      </p>
     </div>
   </div>
 </template>
@@ -74,18 +77,22 @@ export default {
 <style lang="scss" scoped>
 .dashboard {
   &-container {
-    margin: 30px;
+    margin: 50px 100px 100px 100px;
   }
 
   &-title {
-    font-size: 36px;
+    font-size: 45px;
     margin-bottom: 20px;
-    color: #ff0000;
+    color: #195596;
   }
-
+  &-img {
+    width:600px;
+    height:600px;
+    margin-left: 100px;
+  }
   &-content {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 2fr);
     gap: 20px;
   }
 
@@ -97,7 +104,7 @@ export default {
   }
 
   h2 {
-    font-size: 18px;
+    font-size: 20px;
     margin-bottom: 10px;
     color: #ff0000;
   }
