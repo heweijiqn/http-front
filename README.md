@@ -55,15 +55,15 @@ npm run lint -- --fix
 
 ## 项目结构
 
-- 首先分为三个大的模块分别是common,model,service-system
-- common模块下有四个子模块:
-  - common-log:日志实现模块
-  - common-util:通用工具类模块
-  - service-util:配置类及异常
-  - spring-security：权限模块
-- model:用于定义数据模型，包括数据库中的表结构、实体类及Vo类
-- service-system：服务模块，采用三层架构
-  - 表示层：负责处理用户请求和响应
-  - 业务逻辑层：负责实现具体的业务逻辑，协调数据处理、调用数据访问层操作等。
-  - 数据访问层：数据访问对象（DAO）负责与数据库交互，实现数据读写操作。
+主要文件夹及文件：
+  - src\api\system：进行前端接口的编写
+  - src\views\system：进行前端页面的编写
+  - store\modules\user.js：新增菜单及按钮处理
+  - store\getters.js:新增菜单及按钮处理
+  - src\router:开发环境和生产环境组件导入
+  - src\permission.js:动态路由生成的脚本
+  - src\router:路由配置
+  - src\components:动态渲染匹配到的路由组件
+  - layout\components\SideBar\index.vue:获取路由配置
+  - utils\btn-permission.js:权限判断
 
