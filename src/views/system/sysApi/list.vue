@@ -421,7 +421,7 @@ export default {
 
     invokeApi() {
       const requestParamsInput = this.Parameters.requestParameter;
-      if (this.Parameters.method === "POST") {
+      if (this.Parameters.method === "post") {
         if (
           requestParamsInput == null ||
           requestParamsInput == "" ||
@@ -461,7 +461,7 @@ export default {
             this.responseData = error.response.data;
             this.$message.error("调用失败");
           });
-      } else if (this.Parameters.method === "PUT") {
+      } else if (this.Parameters.method === "put") {
         if (
           requestParamsInput == null ||
           requestParamsInput == "" ||
@@ -525,7 +525,7 @@ export default {
             this.responseData = error.response.data;
             this.$message.error("调用失败");
           });
-      } else if (this.Parameters.method === "DELETE") {
+      } else if (this.Parameters.method === "delete") {
         if (
           this.Parameters.pathParameter.length > 0 &&
           this.Parameters.requestParameter.length === 0
@@ -610,7 +610,7 @@ export default {
               this.$message.error("调用失败");
             });
         }
-      } else if (this.Parameters.method === "GET") {
+      } else if (this.Parameters.method === "get") {
         if (
           this.Parameters.pathParameter.length > 0 &&
           this.Parameters.requestParameter.length === 0
